@@ -1,2 +1,2 @@
 # Whatsapp-Chat-Analyzer
-https://whatsapp-insights.streamlit.app/
+Check Out The Application [visit here !](https://whatsapp-insights.streamlit.app/)
