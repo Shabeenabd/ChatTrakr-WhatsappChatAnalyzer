@@ -1,5 +1,8 @@
+pandas
+numpy
 urlextract
 wordcloud
 matplotlib
 seaborn
 emoji
+nltk
