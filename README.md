@@ -1,8 +1,12 @@
-# 💬 Chat Tracker - WhatsApp Chat Analyzer
+# 📑 Chat Tracker - WhatsApp Chat Analyzer
 
 Chat Tracker is an intelligent and interactive web application designed to analyze and summarize exported WhatsApp chat files. Whether it’s a one-on-one conversation or a group chat, Chat Tracker reveals fascinating insights into your conversations with a clean, user-friendly interface built using Streamlit.
 
-Check Out The Application [visit here !](https://whatsapp-insights.streamlit.app/)
+
+**🌐 checkout the application [Click here](https://chat-trackr.streamlit.app/)**
+
+>![Build Status](https://img.shields.io/badge/warning-cold--start-blue) The application may take some time to respond after periods of inactivity due to resource optimization
+
 
 ## 🌟 Features
 ### 📌 Comprehensive Chat Analysis
@@ -26,37 +30,45 @@ Check Out The Application [visit here !](https://whatsapp-insights.streamlit.app
 - Instant analysis with interactive charts and visualizations.
 
 ## 🚀 How to Use?
-Step 1: Export Your WhatsApp Chat
-Open the WhatsApp chat (individual or group) you want to analyze.
-Click on Export Chat (without media).
-Save the .txt file.
+#### Step 1: Export Your WhatsApp Chat
+-  **Open WhatsApp and navigate to the chat:**
+Open the WhatsApp application and go to the individual or group chat you want to export.
+-  **Access More Options:**
+Tap on the three vertical dots (More options) in the upper right corner of the chat window. 
+-  **Select Export Chat:**
+In the More options menu, select "Export chat". 
+-  **Choose Media (Optional):**
+You'll be prompted to choose whether to include or exclude media (images, videos, etc.) in the export. 
+-  **Select Export Method:**
+Choose your preferred method to export the chat history, such as sending it via email, saving it to Notes, or using another available option. 
+
+#### step 2: Open Chat Trakr.
+#### step 3: Upload the exported zip file.
+#### 🎈 Instantly explore beautifully presented insights and statistics.
 
 ## 📋 Installation Instructions
 
 To get started with this project, follow the instructions below to set up the environment and install the necessary dependencies.
 
-### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/Shabeenabd/DriveWorthAI-CarPricePredictor.git
-cd DriveWorthAI-CarPricePredictor
-```
-### Step 2: Set Up Python Environment
-1. Create a virtual environment:
-```bash
+# clone this repo
+git clone https://github.com/Shabeenabd/ChatTrakr-WhatsappChatAnalyzer.git
+cd ChatTrakr-WhatsappChatAnalyzer.git
+
+# Create a virtual environment
 python3 -m venv venv
-```
-2. Activate the virtual environment:
-```bash
+
+# Activate the virtual environment
 # For Windows
 venv\Scripts\activate
-# For macOS/Linux:
+
+# For macOS/Linux
 source venv/bin/activate
 
-```
-3. Install the required Python dependencies:
-```bash
+# Install the required Python dependencies
 pip install -r requirements.txt
+
 ```
 
 ## 🎯 Project Structure
@@ -66,8 +78,7 @@ ChatTrackr/
 │
 ├── app                                            # Web Application 
 │    ├── app.py                                    
-│    ├── helper.py                                 # helper functions for the streamlit application
-│    └── requirements.txt                          # Dependencies for Web Application 
+│    └── helper.py                                 # helper functions for the streamlit application
 │   
 ├── data                                           # whatsapp exported chats
 │     ├── whatsappchat_1.zip                               
