@@ -46,6 +46,11 @@ Choose your preferred method to export the chat history, such as sending it via 
 #### step 3: Upload the exported zip file.
 #### 🎈 Instantly explore beautifully presented insights and statistics.
 
+## 📷 Screenshots
+![demo](images/demo1.png)
+
+![demo](images/demo2.png)
+
 ## 📋 Installation Instructions
 
 To get started with this project, follow the instructions below to set up the environment and install the necessary dependencies.
@@ -91,3 +96,7 @@ ChatTrackr/
 │
 └── README.md                                      # This README file
 ```
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check out the issues page or submit a pull request.
